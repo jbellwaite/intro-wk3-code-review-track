@@ -7,12 +7,12 @@ $(document).ready(function() {
 
       if (userScore === 5 || userScore === 6) {
         $("#answer").text(name + ", you should take the Design track!");
-        $("#csharp").removeClass();
+        $("#design").removeClass();
  +      $("#description").text("You will learn CSS, HTML, and JavaScript to learn how to style web pages using complex, responsive layouts. You will learn front-end development to control what the user of a website can see and do.");
       }
       else if (userScore === 7 || userScore === 8) {
         $("#answer").text(name + ", you should take the SQL track!");
-        $("#bellpepper").removeClass();
+        $("#sql").removeClass();
  +      $("#description").text("Structured Query Language (SQL) is used to communicate with databases. Its a bit different than some of the others listed, as you can't build a website or app using SQL, SQL is used to build and manage the databases apps and websites use.");
       }
       else if (userScore === 9) {
