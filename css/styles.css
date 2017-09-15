@@ -12,3 +12,8 @@ p.bolder {
   font-size: 25px;
   font-weight: bold;
 }
+
+#description {
+  font-style: italic;
+  font-weight: normal;
+}
