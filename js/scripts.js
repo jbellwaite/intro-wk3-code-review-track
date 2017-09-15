@@ -1,9 +1,9 @@
 $(document).ready(function() {
    $("form#track").submit(function(event) {
      var name = $("input#name").val();
-     var userScore = parseInt($("input:radio[name=age]:checked").val()) + parseInt($("input:radio[name=color]:checked").val()) +
-     parseInt($("input:radio[name=cent]:checked").val()) +
-     parseInt($("input:radio[name=bread]:checked").val()) + parseInt($("input:radio[name=season]:checked").val()) ;
+     var userScore = parseInt($("input:radio[name=wherework]:checked").val()) + parseInt($("input:radio[name=clean]:checked").val()) +
+     parseInt($("input:radio[name=friends]:checked").val()) +
+     parseInt($("input:radio[name=freetime]:checked").val()) + parseInt($("input:radio[name=why]:checked").val()) ;
 
       if (userScore === 3 || userScore === 4) {
         $("#answer").text("C#");
