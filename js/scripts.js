@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $("form#track").submit(function(event) {
      var name = $("input#name").val();
-     var userScore = parseInt($("input:radio[name=wherework]:checked").val()) + parseInt($("input:radio[name=clean]:checked").val()) +
+     var userScore = parseInt($("input:radio[name=picture]:checked").val()) + parseInt($("input:radio[name=clean]:checked").val()) +
      parseInt($("input:radio[name=friends]:checked").val()) +
      parseInt($("input:radio[name=freetime]:checked").val()) + parseInt($("input:radio[name=why]:checked").val()) ;
 
