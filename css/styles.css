@@ -1,7 +1,14 @@
 img {
   max-width: 250px
 }
-p {
+
+p.light {
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+p.bolder {
+  font-size: 25px;
   font-weight: bold;
-  font-size: 20px;
 }
