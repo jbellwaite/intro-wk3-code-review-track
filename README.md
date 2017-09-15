@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a simple survey to help prospective Epicodus students determine which track is best for them. This website collects input from the user in the form of radio button selections, and using JavaScript and JQuery, determines the best track using a simple formula that adds the values of each answer. The end output is a suggested track (e.g., CSS/Design vs.. Ruby/Rails vs., C#/.NET.). There are five questions (excluding one form that asks the user what their name is) that the user may answer and five possible track outcomes. _
+ _This is a simple survey to help prospective Epicodus students determine which track is best for them. This website collects input from the user in the form of radio button selections, and using JavaScript and JQuery, determines the best track using a simple formula that adds the values of each answer. The end output is a suggested track (e.g., CSS/Design vs.. Ruby/Rails vs., C#/.NET.). There are five questions (excluding one form that asks the user what their name is) that the user may answer and five possible track outcomes._
 
 ## Setup/Installation Requirements
 
