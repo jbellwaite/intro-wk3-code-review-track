@@ -22,11 +22,11 @@ _Alternatively, you can use the following link to directly open the application 
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_I don't know of any major bugs or work-arounds that I had to take on this project. I did, however, change the order of the radio button groups a lot after I had already written the functions. That means the order the input name appears within the function does not match the order the function appears within my html. I also did not change the order of the images at the very bottom of my html to match the order they appear within the branching logic within my scripts.js file. This makes it messy, and I would prefer if they all matched order, for easier editing._
 
 ## Support and contact details
 
-_For issues, comments, or concerns, please contact Jessie at jess.bell@me.com_
+_For issues, comments, or questions, please contact Jessie at jess.bell@me.com_
 
 ## Technologies Used
 
