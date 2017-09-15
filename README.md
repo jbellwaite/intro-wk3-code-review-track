@@ -11,8 +11,8 @@ _This is a simple survey to help prospective Epicodus students determine which t
 ## Setup/Installation Requirements
 
 * _Clone the "track" repository to your desktop from GitHub here: https://github.com/jbellwaite/track.git_
-* _Open the "track" folder,
-* _Open a web-browser, preferably Chrome.
+* _Open the "track" folder_
+* _Open a web-browser, preferably Chrome._
 * _Drag "index.html" into an open tab in your web browser to open the application._
 * _Once open in the web browser, answer all questions and press "submit". The application should then hide the questionnaire and  display the answer with a picture of the particular track's logo._
 
@@ -32,10 +32,10 @@ _For issues, comments, or concerns, please contact Jessie at jess.bell@me.com_
 
 _This application was created using the following:_
 * _HTML_
-*_CSS_
-*_Bootstrap v3.3.7_
-*_JavaScript_
-*_jQuery v3.2.1_
+* _CSS_
+* _Bootstrap v3.3.7_
+* _JavaScript_
+* _jQuery v3.2.1_
 
 ### License
 
