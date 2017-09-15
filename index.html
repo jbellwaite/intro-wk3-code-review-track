@@ -6,11 +6,17 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Which Vegetable Are You?</title>
+    <title>Epicodus Track Picker</title>
   </head>
   <body>
     <div class="container">
-      <form id="vegetable">
+      <div class ="jumbotron">
+        <h1>Epicodus Track Picker</h1>
+        <h3>Which track is right for you?</h3>
+        <p>Answer these questions to determine which track at Epicodus you should take.
+      </div>
+
+      <form id="track">
         <p>How old are you?
         </p>
         <div class="radio">
@@ -89,11 +95,11 @@
             Winter
           </label>
         </div>
-        <button type="submit" class="btn">Find Your Spirit Vegetable</button>
+        <button type="submit" class="btn">Submit</button>
       </form>
       <h1 id="answer"></h1>
       <p id="description"></p>
-      <img src="img/beet.jpeg" class="hidden" alt="beet" id="beet">
+      <img src="img/csharp.png" class="hidden" alt="csharp" id="csharp">
       <img src="img/bellpepper.jpeg" class="hidden" alt="bellpepper" id="bellpepper">
       <img src="img/broccoli.jpeg" class="hidden" alt="broccoli" id="broccoli">
       <img src="img/brussels.jpeg" class="hidden" alt="brussel sprouts" id="brussels">
