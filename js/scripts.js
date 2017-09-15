@@ -1,6 +1,6 @@
 $(document).ready(function() {
    $("form#track").submit(function(event) {
-     // var userScore = age + color + season ;
+     var name = $("input#name").val();
      var userScore = parseInt($("input:radio[name=age]:checked").val()) + parseInt($("input:radio[name=color]:checked").val()) +
      parseInt($("input:radio[name=cent]:checked").val()) +
      parseInt($("input:radio[name=bread]:checked").val()) + parseInt($("input:radio[name=season]:checked").val()) ;
@@ -31,7 +31,7 @@ $(document).ready(function() {
  +      $("#description").text("You are plump and juicy. You are only really good two months out of the year");
       }
       else {
-        $("#answer").text("You are a carrot!");
+        $("#answer").text(name + ", you are a carrot!");
         $("#carrot").removeClass();
  +      $("#description").text("You spend most of your life underground. You are worth more the uglier you are.");
       }
